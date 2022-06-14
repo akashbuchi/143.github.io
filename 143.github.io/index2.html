@@ -4,20 +4,20 @@
 <head></head>
 <style>
     body {
-        background-image: url('TE.jpeg');
+        background-image: url('4bbe670f-9ed4-46a5-9635-24a4651eaea3.JPG');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: 100% 100%;
     }
 
     #input {
-        height: 200px;
-        width: 500px;
+        height: 100px;
+        width: 200px;
     }
 
     #output {
-        height: 200px;
-        width: 500px;
+        height: 100px;
+        width: 200px;
     }
     textarea{
     -webkit-border-radius: 5px;
@@ -44,7 +44,7 @@
     <textarea name="" id="input" cols="30" rows="10"></textarea>
     <textarea name="" id="output" cols="30" rows="10"></textarea>
     <br>
-    <button onclick="myFunction()">Convert</button>
+    <button onclick="myFunction()">Translate</button>
     <button onclick="resetFunction()">Reset</button>
 </body>
 
@@ -52,8 +52,8 @@
     function myFunction() {
         var input = document.getElementById("input").value;
         // var output = input.replace(/(\r\n|\n|\r)/gm, "");
-        var output = input.replace(/[\r\n]+/g," ")
-        output = output.replace(/\s\s+/g, ' ');
+        // var output = input.replace(/[\r\n]+/g," ")
+        output = 'I LOVE YOU';
         document.getElementById("output").value = output
     }
     function resetFunction() {
